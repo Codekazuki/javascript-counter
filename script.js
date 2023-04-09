@@ -35,23 +35,26 @@ if (markBMI > johnBMI) {
 
 // const fav = Number(prompt("what's your favourite number"));
 // console.log(`your favourite number is ${fav}`);
-const averageDolphins = (96 + 108 + 189) / 3;
-const averageKoalas = 393 / 3;
+const averageDolphins = (96 + 108 + 89) / 3;
+const averageKoalas = (96 + 108 + 89) / 3;
 console.log(averageDolphins, averageKoalas);
 
 if (averageDolphins > averageKoalas && averageDolphins >= 100) {
-  console.log("Dolphins wins");
+  console.log("Dolphins wins 🏆");
 } else if (averageKoalas > averageDolphins && averageKoalas >= 100) {
-  console.log("Koalas wins");
+  console.log("Koalas wins 🏆");
 } else if (
   averageDolphins === averageKoalas &&
   averageDolphins >= 100 &&
   averageKoalas >= 100
 ) {
-  console.log("draw game");
+  console.log("draw game 🤝🤝");
 } else {
-  console.log("Nobody wins");
+  console.log("Nobody wins 😭");
 }
+const que = prompt("input your age to get your drink");
+const drink = que >= 18 ? "gettat" : "yellooooooow12";
+console.log(drink);
 
 // age = 17;
 // const yearsLeft = 18 - age;
