@@ -90,3 +90,24 @@ checkWinner(1800, 600);
 //   const yearsLeft = 18 - age;
 //   console.log(`guy need to wait for ${yearsLeft} years more :)`);
 // }
+
+const disciples = ["john", "Peter", "Judas", "Matthew"];
+console.log(disciples[0], disciples[2]);
+
+function calcTip(bill) {
+  const tip = bill >= 50 && bill <= 300 ? bill * (15 / 100) : bill * (20 / 100);
+  return tip;
+}
+const bills = [125, 555, 44];
+const tip = [
+  calcTip(bills[0]),
+  calcTip(bills[1]),
+  calcTip(bills[bills.length - 1]),
+];
+const total = [
+  calcTip(bills[0]) + bills[0],
+  calcTip(bills[1]) + bills[1],
+  calcTip(bills[bills.length - 1]) + bills[2],
+];
+console.log(tip);
+console.log(total);
