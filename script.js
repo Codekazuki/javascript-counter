@@ -52,9 +52,33 @@ if (averageDolphins > averageKoalas && averageDolphins >= 100) {
 } else {
   console.log("Nobody wins 😭");
 }
-const que = prompt("input your age to get your drink");
-const drink = que >= 18 ? "gettat" : "yellooooooow12";
-console.log(drink);
+// const que = prompt("input your age to get your drink");
+// const drink = que >= 18 ? "gettat" : "yellooooooow12";
+// console.log(drink);
+
+// const bill = 430;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// console.log(
+//   `the bill was ${bill},and the tip was ${tip},and the total was ${bill + tip}`
+// );
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+let scoreDolphins = calcAverage(44, 23, 71);
+let scoreKolas = calcAverage(65, 154, 149);
+console.log(scoreDolphins, scoreKolas);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+  if (avgDolphins >= avgKoalas * 2) {
+    console.log("Dolphins don win");
+  } else if (avgKoalas >= 2 * avgDolphins) {
+    console.log("Koalas wins");
+  } else {
+    console.log("no team wins");
+  }
+};
+checkWinner(scoreDolphins, scoreKolas);
+checkWinner(1800, 600);
 
 // age = 17;
 // const yearsLeft = 18 - age;
