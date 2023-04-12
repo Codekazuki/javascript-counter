@@ -111,3 +111,13 @@ const total = [
 ];
 console.log(tip);
 console.log(total);
+
+const coach = {
+  firstName: "Ayodele",
+  lastName: "agbowuro",
+  friends: ["ade", "boaz", "chuks"],
+};
+
+console.log(
+  `${coach.firstName} has ${coach.friends.length} friends and his best friend is called ${coach.friends[0]}`
+);
