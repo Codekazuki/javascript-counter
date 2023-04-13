@@ -121,3 +121,42 @@ const coach = {
 console.log(
   `${coach.firstName} has ${coach.friends.length} friends and his best friend is called ${coach.friends[0]}`
 );
+
+const person = {
+  fullName: "Mark Miller",
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+
+const person2 = {
+  fullName: "John smith",
+  mass: 192,
+  height: 1.95,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+person.calcBMI();
+person2.calcBMI();
+
+console.log(person.bmi);
+console.log(person2.bmi);
+
+if (person2.bmi > person.bmi) {
+  console.log(
+    `${person2.fullName}'s BMI (${person2.calcBMI()}) is higher than ${
+      person.fullName
+    }'s ${person.calcBMI()}!`
+  );
+} else {
+  console.log(
+    `${person.fullName}'s BMI (${person.calcBMI()}) is higher than ${
+      person2.fullName
+    }'s ${person2.calcBMI()}!`
+  );
+}
