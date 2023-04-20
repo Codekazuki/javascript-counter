@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 1rem;
+}
+.card {
+  background-color: rgb(40, 204, 53);
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* instead of media queries */
+/* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
