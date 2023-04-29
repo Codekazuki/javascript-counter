@@ -180,3 +180,7 @@ while (dice !== 6) {
     console.log(`dice is ${dice} so loop go stop`);
   }
 }
+const hello = function (a, b) {
+  return a - b;
+};
+console.log(hello(4, 9));
