@@ -184,3 +184,13 @@ const hello = function (a, b) {
   return a - b;
 };
 console.log(hello(4, 9));
+const cars = ["BMW", "Volvo", "Mini"];
+
+let text = "";
+for (let x of cars) {
+  text += x;
+}
+do {
+  text += "The number is " + i;
+  i++;
+} while (i < 10);
