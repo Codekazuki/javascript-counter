@@ -14,6 +14,15 @@ body {
   border-radius: 5rem;
   text-align: center;
 }
+.my--btn {
+  padding: 10px;
+  background-color: indigo;
+  color: white;
+  border: 0;
+}
+.my--btn:hover {
+  border
+}
 img {
   padding: 1rem;
   border-radius: 5rem;
