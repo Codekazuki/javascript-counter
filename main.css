@@ -10,9 +10,16 @@ body {
   background-color: rgb(40, 204, 53);
   color: white;
   padding: 1rem;
-  height: 4rem;
+  /* height: 4rem; */
   border-radius: 5rem;
   text-align: center;
+}
+img {
+  padding: 1rem;
+  border-radius: 5rem;
+}
+.card--2 {
+  background: white;
 }
 .cards {
   max-width: 1200px;
