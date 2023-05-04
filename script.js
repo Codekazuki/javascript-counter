@@ -194,3 +194,11 @@ do {
   text += "The number is " + i;
   i++;
 } while (i < 10);
+
+const hover = document.querySelector(".item");
+
+const whenClick = function () {
+  hover.addEventListener("click", function () {
+    console.log("dem don click me");
+  });
+};
