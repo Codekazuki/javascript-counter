@@ -197,8 +197,10 @@ do {
 
 const hover = document.querySelector(".item");
 
-const whenClick = function () {
-  hover.addEventListener("click", function () {
-    console.log("dem don click me");
-  });
-};
+hover.addEventListener("click", function () {
+  if (color == red) {
+    color: green;
+  } else {
+    yellow;
+  }
+});
