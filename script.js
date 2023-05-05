@@ -171,29 +171,29 @@
 //   rep++;
 // }
 
-let dice = Math.trunc(Math.random() * 6) + 1;
+// let dice = Math.trunc(Math.random() * 6) + 1;
 
-while (dice !== 6) {
-  console.log(`you rolled a ${dice}`);
-  dice = Math.trunc(Math.random() * 6) + 1;
-  if (dice === 6) {
-    console.log(`dice is ${dice} so loop go stop`);
-  }
-}
-const hello = function (a, b) {
-  return a - b;
-};
-console.log(hello(4, 9));
-const cars = ["BMW", "Volvo", "Mini"];
+// while (dice !== 6) {
+//   console.log(`you rolled a ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) {
+//     console.log(`dice is ${dice} so loop go stop`);
+//   }
+// }
+// const hello = function (a, b) {
+//   return a - b;
+// };
+// console.log(hello(4, 9));
+// const cars = ["BMW", "Volvo", "Mini"];
 
-let text = "";
-for (let x of cars) {
-  text += x;
-}
-do {
-  text += "The number is " + i;
-  i++;
-} while (i < 10);
+// let text = "";
+// for (let x of cars) {
+//   text += x;
+// }
+// do {
+//   text += "The number is " + i;
+//   i++;
+// } while (i < 10);
 
 const hover = document.querySelector(".items");
 
@@ -203,4 +203,9 @@ hover.addEventListener("click", function () {
   } else {
     yellow;
   }
+});
+const buttonMi = document.getElementById("box");
+
+buttonMi.addEventListener("click", function (e) {
+  alert("its working");
 });
