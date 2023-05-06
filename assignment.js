@@ -6,3 +6,13 @@ if (x === 5) {
 } else {
   console.log("ttttttt");
 }
+
+const hover = document.querySelector(".items");
+
+hover.addEventListener("click", function () {
+  if (color == red) {
+    color: green;
+  } else {
+    yellow;
+  }
+});
