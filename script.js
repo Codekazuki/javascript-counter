@@ -204,8 +204,12 @@ hover.addEventListener("click", function () {
     yellow;
   }
 });
-const buttonMi = document.getElementById("box");
 
+const image = document.getElementById("image");
+const buttonMi = document.getElementById("box");
 buttonMi.addEventListener("click", function (e) {
   alert("its working");
+});
+image.addEventListener("click", function (e) {
+  alert("its very much working");
 });
