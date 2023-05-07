@@ -10,9 +10,9 @@ if (x === 5) {
 const hover = document.querySelector(".items");
 
 hover.addEventListener("click", function () {
-  if (color == red) {
-    color: green;
+  if (style.color == red) {
+    style.color = "green";
   } else {
-    yellow;
+    style.color = "yellow";
   }
 });

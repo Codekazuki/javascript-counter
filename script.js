@@ -195,16 +195,6 @@
 //   i++;
 // } while (i < 10);
 
-const hover = document.querySelector(".items");
-
-hover.addEventListener("click", function () {
-  if (color == red) {
-    color: green;
-  } else {
-    yellow;
-  }
-});
-
 const image = document.getElementById("image");
 const buttonMi = document.getElementById("box");
 buttonMi.addEventListener("click", function (e) {
