@@ -7,6 +7,12 @@ function hideButton(x) {
   x.style.display = "none";
 }
 
-function changeColor(x) {
-  x.style.color = "red";
+function changeColor(hi) {
+  hi.style.color = "red";
+}
+function removeClass(i) {
+  var allElements = document.querySelectorAll(".text");
+  for (i = 0; i < allElements.length; i++) {
+    allElements[i].classList.remove("text");
+  }
 }

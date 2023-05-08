@@ -195,11 +195,11 @@
 //   i++;
 // } while (i < 10);
 
-const image = document.getElementById("image");
-const buttonMi = document.getElementById("box");
-buttonMi.addEventListener("click", function (e) {
-  alert("its working");
-});
-image.addEventListener("click", function (e) {
-  alert("its very much working");
-});
+// const image = document.getElementById("image");
+// const buttonMi = document.getElementById("box");
+// buttonMi.addEventListener("click", function (e) {
+//   alert("its working");
+// });
+// image.addEventListener("click", function (e) {
+//   alert("its very much working");
+// });
