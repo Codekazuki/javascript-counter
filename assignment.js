@@ -18,5 +18,5 @@ function removeClass(i) {
 }
 function remove() {
   const e = document.getElementsById("classremove");
-  e.classList.remove("class");
+  e.classList.remove("text");
 }
