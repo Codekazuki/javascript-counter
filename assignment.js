@@ -16,3 +16,7 @@ function removeClass(i) {
     allElements[i].classList.remove("text");
   }
 }
+function remove() {
+  const e = document.getElementsById("classremove");
+  e.classList.remove("class");
+}
