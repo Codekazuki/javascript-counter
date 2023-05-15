@@ -20,3 +20,12 @@ function remove() {
   const e = document.getElementsById("classremove");
   e.classList.remove("text");
 }
+
+function makePoundo(yam, water) {
+  const makeIt = `use ${yam} tubers and ${water} cups of water`;
+  return makeIt;
+}
+
+document.write(makePoundo(3, 4));
+
+document.write(makePoundo(3798, 244));
