@@ -203,3 +203,5 @@
 // image.addEventListener("click", function (e) {
 //   alert("its very much working");
 // });
+console.log(4 + 4);
+console.log("hello world");
