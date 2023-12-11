@@ -9,64 +9,7 @@
   </head>
   <body>
     <div>Hello</div>
-    <button onclick="hideButton(this)">click to hide</button>
-    <button onclick="changeColor(this)">change color</button>
-    <p class="text">Lorem ipsum dolor sit amet.</p>
-    <h1 class="text">Lorem ipsum dolor sit.</h1>
-    <span class="text">hello span</span>
-    <button onclick="removeClass(this)">click me</button>
-    <p class="textt" id="classremove">remove class</p>
-    <button onclick="remove()">click to remove class</button>
-
-    <h1 style="color: red">
-      My name is <span style="color: yellow">OLumide</span>
-    </h1>
-
-    <p id="bro">Uncle brother Eben</p>
-    <h1 id="juve">Lorem ipsum dolor sit amet consectetur.</h1>
-    <p class="wawu">Lorem ipsum dolor sit amet.</p>
-    <h2 id="naija">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti?
-    </h2>
-    <p class="naija">heloooooooooo</p>
-    <div>
-      <label id="count" for="number">0</label><br />
-      <div class="buttons">
-        <button id="increase">increase</button>
-        <button id="reset">reset</button>
-        <button id="decrease">decrease</button>
-      </div>
-    </div>
-
-    <script>
-      let countButton = document.getElementById("count");
-      let increaseButton = document.getElementById("increase");
-      let decreaseButton = document.getElementById("decrease");
-      let resetButton = document.getElementById("reset");
-
-      let count = 0;
-      if (countButton > 0) {
-        document.getElementById("count").style.background = "red";
-      }
-
-      increaseButton.onclick = function () {
-        count += 1;
-        countButton.innerHTML = count;
-      };
-      decreaseButton.onclick = function () {
-        count -= 1;
-        countButton.innerHTML = count;
-      };
-      resetButton.onclick = function () {
-        count = 0;
-        countButton.innerHTML = count;
-      };
-      if (count > 0) {
-        count.style.color = "green";
-      }
-    </script>
 
     <script src="script.js"></script>
-    <script src="assignment.js"></script>
   </body>
 </html>
