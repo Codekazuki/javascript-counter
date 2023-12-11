@@ -7,6 +7,8 @@
   --color-sec: #db6400;
   --grey: #eee;
   --dark-grey: #222831;
+  --positive: #0ff586;
+  --negative: #e70909;
 }
 * {
   margin: 0;
@@ -30,5 +32,44 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
-  color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter-div {
+  color: var(--white);
+  background-color: var(--light-blue);
+  width: 50%;
+  height: 40vh;
+  border-radius: 4px;
+  text-align: center;
+}
+.counter-div > * {
+  margin-bottom: 10%;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 4rem;
+}
+.buttons button {
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+button.add {
+  background-color: var(--positive);
+}
+button.subtract {
+  background-color: var(--negative);
+}
+button.reset {
+  background-color: var(--grey);
+  color: var(--black);
 }
