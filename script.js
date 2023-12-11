@@ -8,18 +8,20 @@ buttons.addEventListener("click", (e) => {
   }
   if (e.target.classList.contains("subtract")) {
     count.innerHTML--;
+    addColor();
   }
   if (e.target.classList.contains("reset")) {
     count.innerHTML = 0;
+    addColor();
   }
 });
 
 function addColor() {
   if (count.innerHTML > 0) {
-    count.style.color = "red";
-  } else if (count.innerHTML < 0) {
-    count.style.color = "yellow";
-  } else {
     count.style.color = "green";
+  } else if (count.innerHTML < 0) {
+    count.style.color = "red";
+  } else {
+    count.style.color = "grey";
   }
 }
